@@ -1,15 +1,9 @@
-.knight.white {
+/* White Knight */
+.knight.white, .piece.wn {
     background-image: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessLionWhite.svg') !important;
 }
 
-.knight.black {
-    background-image: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessLionBlack.svg') !important;
-}
-
-#board-play-board .piece.wn {
-    background-image: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessLionWhite.svg') !important;
-}
-
-#board-play-board .piece.bn {
+/* Black Knight */
+.knight.black, .piece.bn {
     background-image: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessLionBlack.svg') !important;
 }
