@@ -7,7 +7,7 @@ html body {
 }
 
 .knight.black {
-    background-image: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessLionWhite.svg') !important;
+    background-image: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessLionBlack.svg') !important;
 }
 
 #board-play-board .piece.wn {
