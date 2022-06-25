@@ -1,0 +1,7 @@
+html body {
+    background: url(https://www.downloadclipart.net/large/37967-lion-black-white-clipart.png)
+}
+
+.knight.white {
+    background-image: url('/image/chess/ChessLionWhite.svg') !important;
+}
