@@ -1,3 +1,7 @@
+cg-board {
+    background-image: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/board.svg') !important;
+}
+
 /* White Knight */
 .knight.white, .piece.wn {
     background-image: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessLionWhite.svg') !important;
