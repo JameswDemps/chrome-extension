@@ -1,5 +1,5 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "Dem-C Extension",
     "description": "Custom extension for Dem-C",
     "version": "0.1",
@@ -8,22 +8,15 @@
         "48": "./image/generic/ChessLion48.png",
         "128": "./image/generic/ChessLion128.png"
     },
-    "page_action": {
-        "default_icon": {
-            "16": "./image/generic/ChessLion16.png",
-            "48": "./image/generic/ChessLion48.png",
-            "128": "./image/generic/ChessLion128.png"
+    "web_accessible_resources" : [{
+        "resources": ["images/*"],
+        "matches": [],
+       "extension_ids": []
         }
-    },
-    "web_accessible_resources" : [ 
-        "images/*" 
     ],
-    "content_scripts": [{
-        "matches": ["https://www.google.com/*"],
-        "css": ["main.css"]
-    },
+    "content_scripts": [
     {
-        "matches": ["https://lichess.org/*"],
+        "matches": ["https://lichess.org/*", "https://chess.com/*", "https://www.google.com/*"],
         "css": ["chess/chess.css"]
     }]
 }
