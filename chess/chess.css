@@ -1,7 +1,3 @@
-html body {
-    background: url(https://www.downloadclipart.net/large/37967-lion-black-white-clipart.png)
-}
-
 .knight.white {
     background-image: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessLionWhite.svg') !important;
 }
@@ -12,4 +8,8 @@ html body {
 
 #board-play-board .piece.wn {
     background-image: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessLionWhite.svg') !important;
+}
+
+#board-play-board .piece.bn {
+    background-image: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessLionBlack.svg') !important;
 }
