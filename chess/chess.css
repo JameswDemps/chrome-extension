@@ -18,6 +18,6 @@ cg-board {
 }
 
 /* Black Bishop */
-.knight.black, .piece.bn {
+.bishop.black, .piece.bb {
     background-image: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessFireBlack.svg') !important;
 }
