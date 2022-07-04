@@ -11,3 +11,13 @@ cg-board {
 .knight.black, .piece.bn {
     background-image: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessLionBlack.svg') !important;
 }
+
+/* White Bishop */
+.bishop.white, .piece.wb {
+    background-image: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessFireWhite.svg') !important;
+}
+
+/* Black Bishop */
+.knight.black, .piece.bn {
+    background-image: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessFireBlack.svg') !important;
+}
