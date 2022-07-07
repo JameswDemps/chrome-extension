@@ -21,3 +21,13 @@ cg-board {
 .bishop.black, .piece.bb {
     background-image: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessFireBlack.svg') !important;
 }
+
+/* White Pawn */
+.pawn.white, .piece.wp {
+    background-image: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessMicWhite.svg') !important;
+}
+
+/* Black Bishop */
+.pawn.black, .piece.bp {
+    background-image: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessMicBlack.svg') !important;
+}

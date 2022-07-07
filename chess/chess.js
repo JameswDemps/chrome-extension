@@ -1,7 +1,7 @@
 setTimeout(function (){
     var images = document.getElementsByTagName("img")
     
-    var replaceList = [[/bn.png/, 'ChessLionBlack.svg'], [/wn.png/, 'ChessLionWhite.svg'], [/bb.png/, 'ChessFireBlack.svg'], [/wb.png/, 'ChessFireWhite.svg']]
+    var replaceList = [[/bn.png/, 'ChessLionBlack.svg'], [/wn.png/, 'ChessLionWhite.svg'], [/bb.png/, 'ChessFireBlack.svg'], [/wb.png/, 'ChessFireWhite.svg'], [/bp.png/, 'ChessMicBlack.svg'], [/wp.png/, 'ChessMicWhite.svg'],]
     var imageFolder = "https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/"
     
     function replaceImage(src) {
