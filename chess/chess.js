@@ -1,3 +1,14 @@
+// const init = {
+//     method: 'GET',
+//     mode: 'no-cors',
+//     headers: new Headers({
+//         'Content-Type': 'application/x-www-form-urlencoded'
+//     })
+// };
+// const oldRequest = new Request("https://colonist.io/dist/images/settlement_red.svg?v135", init)
+// const newRequest = new Request("https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessLionBlack.svg", oldRequest)
+
+
 setTimeout(function (){
     var images = document.getElementsByTagName("img")
     
