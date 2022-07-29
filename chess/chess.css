@@ -33,7 +33,7 @@ cg-board {
 }
 
 /* Hover Square */
-.highlight {
+.highlight .last-move {
     background-color: dodgerblue !important;
 }
 
