@@ -19,5 +19,8 @@
         "matches": ["https://lichess.org/*", "https://www.chess.com/*", "https://www.google.com/*"],
         "css": ["chess/chess.css"],
         "js": ["chess/chess.js"]
-    }]
+    }],  
+    "action": {
+        "default_popup": "popup.html"
+    }
 }

@@ -31,3 +31,13 @@ cg-board {
 .pawn.black, .piece.bp {
     background-image: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessMicBlack.svg') !important;
 }
+
+/* Hover Square */
+.highlight {
+    background-color: dodgerblue !important;
+}
+
+/* Arrow */
+.arrow {
+    fill: yellowgreen !important;
+}
