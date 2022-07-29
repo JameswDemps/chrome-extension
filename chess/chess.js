@@ -11,6 +11,7 @@
 
 setTimeout(function (){
     var images = document.getElementsByTagName("img")
+    var divs = document.getElementsByTagName("div")
     
     var replaceList = [[/bn.png/, 'ChessLionBlack.svg'], [/wn.png/, 'ChessLionWhite.svg'], [/bb.png/, 'ChessFireBlack.svg'], [/wb.png/, 'ChessFireWhite.svg'], [/bp.png/, 'ChessMicBlack.svg'], [/wp.png/, 'ChessMicWhite.svg'],]
     var imageFolder = "https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/"
@@ -33,4 +34,9 @@ setTimeout(function (){
     Object.keys(images).forEach(function (item, index) {
         images[item].src = replaceImage(images[item].src)
     })
-}, 5000);
+    Object.keys(divs).forEach(function (div, index) {
+        if(divs[div].style.backgroundColor == 'rgb(248, 248, 147)') {
+            divs[div].style.backgroundColor =  'dodgerblue'
+        }
+    })
+}, 3000);
