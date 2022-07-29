@@ -33,8 +33,9 @@ cg-board {
 }
 
 /* Hover Square */
-.highlight .last-move {
+.highlight, square.last-move {
     background-color: dodgerblue !important;
+    opacity: 0.8;
 }
 
 /* Arrow */
