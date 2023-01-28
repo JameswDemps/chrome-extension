@@ -42,6 +42,16 @@ cg-board {
     background-image: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessSpeakerBlack.svg') !important;
 }
 
+/* White Queen */
+.queen.white, .piece.wq {
+    background-image: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessCatQueenWhite.svg') !important;
+}
+
+/* Black Queen */
+.queen.black, .piece.bq {
+    background-image: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessCatQueenBlack.svg') !important;
+}
+
 
 
 /* Hover Square */
