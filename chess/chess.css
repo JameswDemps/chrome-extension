@@ -27,10 +27,22 @@ cg-board {
     background-image: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessMicWhite.svg') !important;
 }
 
-/* Black Bishop */
+/* Black Pawn */
 .pawn.black, .piece.bp {
     background-image: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessMicBlack.svg') !important;
 }
+
+/* White Rook */
+.rook.white, .piece.wr {
+    background-image: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessSpeakerWhite.svg') !important;
+}
+
+/* Black Rook */
+.rook.black, .piece.br {
+    background-image: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessSpeakerBlack.svg') !important;
+}
+
+
 
 /* Hover Square */
 .highlight, square.last-move {
