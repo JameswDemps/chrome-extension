@@ -10,7 +10,7 @@
     },
     "web_accessible_resources" : [{
         "resources": ["images/*"],
-        "matches": [],
+        "matches": ["<all_urls>"],
        "extension_ids": []
         }
     ],
