@@ -2,6 +2,22 @@ cg-board {
     background-image: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/board.svg') !important;
 }
 
+:root {
+    --theme-board-style-image: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/board.svg') !important;
+    --theme-board-style-highlight-color: dodgerblue !important;
+
+    --theme-piece-set-wn: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessLionWhite.svg') !important;
+    --theme-piece-set-bn: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessLionBlack.svg') !important;
+    --theme-piece-set-wb: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessFireWhite.svg') !important;
+    --theme-piece-set-bb: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessFireBlack.svg') !important;
+    --theme-piece-set-wp: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessMicWhite.svg') !important;
+    --theme-piece-set-bp: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessMicBlack.svg') !important;
+    --theme-piece-set-wr: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessSpeakerWhite.svg') !important;
+    --theme-piece-set-br: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessSpeakerBlack.svg') !important;
+    --theme-piece-set-wq: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessCatQueenWhite.svg') !important;
+    --theme-piece-set-bq: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessCatQueenBlack.svg') !important;
+}
+
 /* White Knight */
 .knight.white, .piece.wn {
     background-image: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessLionWhite.svg') !important;
@@ -61,6 +77,7 @@ square.last-move {
     background: #262421 url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/generic/LiChessIcon.svg') !important;
     background-size: 100% 100% !important;
 }
+
 
 
 /* Hover Square */
