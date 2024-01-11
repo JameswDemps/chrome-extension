@@ -59,6 +59,7 @@ square.last-move {
 
 .lobby__app__content {
     background: #262421 url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/generic/LiChessIcon.svg') !important;
+    background-size: 100% 100% !important;
 }
 
 
