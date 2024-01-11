@@ -26,6 +26,62 @@ function onBtnClick(evt) {
     alert(this.textContent);
 }
 
+// Step 1: Create a MutationObserver
+const observer = new MutationObserver((mutations) => {
+    // Step 2: Define the callback
+    mutations.forEach((mutation) => {
+        switch (mutation.type) {
+            // case 'childList':
+            //     // Handle added or removed nodes
+            //     mutation.addedNodes.forEach((node) => {
+            //         // if (node.nodeType === Node.ELEMENT_NODE) {
+            //             // Step 3: Alter the CSS of the new div
+            //             // node.style.backgroundColor = 'lightblue'; // Example CSS change
+    
+            //             if(node.style.backgroundColor == 'rgb(248, 248, 147)' || node.style.backgroundColor == '#f8f893') {
+            //                 node.style.backgroundColor =  'dodgerblue'
+            //             }
+    
+            //             if(node.style.backgroundColor == 'rgb(235, 97, 80)') {
+            //                 node.style.backgroundColor =  'rgb(58 206 102)'
+            //             }
+            //         // }
+            //     });
+            //     break;
+            case 'attributes':
+                // Handle attribute changes
+                const changedNode = mutation.target;
+                const changedAttribute = mutation.attributeName;
+                const newValue = changedNode.getAttribute(changedAttribute);
+                // Do something with the attribute change
+                if(changedNode.style.backgroundColor == 'rgb(248, 248, 147)' || changedNode.style.backgroundColor == '#f8f893') {
+                    changedNode.style.backgroundColor =  'dodgerblue'
+                }
+                if(changedNode.style.backgroundColor == 'rgb(235, 97, 80)') {
+                    changedNode.style.backgroundColor =  'rgb(145 98 224)'
+                }
+                // if(changedNode.style.backgroundColor == 'rgba(155,199,0,.41)') {
+                //     changedNode.style.backgroundColor =  'rgb(145 98 224)'
+                // }
+                break;
+            // case 'characterData':
+            //     // Handle text content changes
+            //     const textChangedNode = mutation.target;
+            //     // Do something with the text change
+            //     break;
+        }
+        if (mutation.type === 'childList' || mutation.type === 'attributes') {
+            
+        }
+    });
+});
+
+// Step 4: Configure and attach the observer
+const config = { childList: true, attributes: true, subtree: true }; // Observe direct children and descendants
+observer.observe(document.body, config); // Attach observer to the body element
+
+
+
 setTimeout(function (){
     var images = document.getElementsByTagName("img")
     var divs = document.getElementsByTagName("div")
@@ -93,8 +149,12 @@ setTimeout(function (){
         images[item].src = replaceImage(images[item].src)
     })
     Object.keys(divs).forEach(function (div, index) {
-        if(divs[div].style.backgroundColor == 'rgb(248, 248, 147)') {
-            divs[div].style.backgroundColor =  'dodgerblue'
+        // if(divs[div].style.backgroundColor == 'rgb(248, 248, 147)') {
+        //     divs[div].style.backgroundColor =  'dodgerblue'
+        // }
+        if(divs[div].style.backgroundColor == 'rgb(235, 97, 80)') {
+            divs[div].style.backgroundColor =  'rgb(58 206 102)'
         }
     })
 }, 3000);
+
