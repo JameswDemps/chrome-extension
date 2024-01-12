@@ -90,3 +90,11 @@ square.last-move {
 .arrow {
     fill: yellowgreen !important;
 }
+
+
+
+/* -------------------------------- */
+
+.icon.horse {
+    background-image: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessLionTransparent.svg') !important;
+}
