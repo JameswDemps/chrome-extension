@@ -16,7 +16,7 @@
     ],
     "content_scripts": [
     {
-        "matches": ["https://lichess.org/*", "https://www.chess.com/*", "https://www.google.com/*"],
+        "matches": ["https://lichess.org/*", "https://www.chess.com/*", "https://play.xiangqi.com/*"],
         "css": ["chess/chess.css"],
         "js": ["chess/chess.js"]
     }],  
