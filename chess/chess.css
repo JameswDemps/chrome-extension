@@ -98,3 +98,13 @@ square.last-move {
 .icon.horse {
     background-image: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessLionTransparent.svg') !important;
 }
+
+.icon.rook {
+    background-size: 51% !important;
+    background-image: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessSpeakerTransparent.svg') !important;
+}
+
+.icon.pawn {
+    background-size: 50% !important;
+    background-image: url('https://raw.githubusercontent.com/JameswDemps/chrome-extension/main/image/chess/ChessMicTransparent.svg') !important;
+}
